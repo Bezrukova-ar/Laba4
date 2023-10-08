@@ -19,8 +19,13 @@ namespace Laba4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 newForm = new Form2();
-            newForm.Show();
+
+            if (textBox1.Text == "Водопровод" || textBox1.Text == "водопровод")
+            {
+                Form2 newForm = new Form2();
+                newForm.Show();
+            }    
+            
         }
     }
 }
